@@ -12,17 +12,24 @@ const NavbarCont = styled.div`
 `;
 
 const NavbarText = styled.a`
-  padding-right: 20px;
+  font-size: 24px;
+  padding-right: 40px;
   color: #EEEEEE;
+  &:hover {
+    color: #C792EA; // <Thing> when hovered
+  }
+  &:active {
+    color: #C792EA;
+  }
 `;
 
 export default function Navbar()  {
   return (
     <NavbarCont>
-      <NavbarText>Home()</NavbarText>
-      <NavbarText>Projects()</NavbarText>
-      <NavbarText>About()</NavbarText>
-      <NavbarText>Github()</NavbarText>
+      <NavbarText href='/'>Home()</NavbarText>
+      <NavbarText href='/projects'>Projects()</NavbarText>
+      <NavbarText href='/about'>About()</NavbarText>
+      <NavbarText href='https://github.com/JeremyCarmona3/' target="_blank">Github()</NavbarText>
     </NavbarCont>
   )
 }
