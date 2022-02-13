@@ -16,6 +16,7 @@ export default function About() {
         <title>About Me</title>
         <meta name="description" content="Jeremy Carmona's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheets" href="/styles/globals.css" />
       </Head>
 
       <div className={styles.container}>
@@ -30,7 +31,15 @@ export default function About() {
 
           <Subtitle text='Experience' />
           <Text text="I have 2 years of experience in developing and designing cross-platform web and mobile applications.
-            This experience comes from BCIT's Digital Design and Development program.
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
           " />
 
           <Subtitle text='My skills' />
