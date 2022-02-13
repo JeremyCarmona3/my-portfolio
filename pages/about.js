@@ -43,10 +43,30 @@ export default function About() {
           " />
 
           <Subtitle text='My skills' />
-          <Text text="I possess various soft and technical skills." />
+          <Text text="I possess various soft and technical skills. These make me the developer I am today." />
+          <Text text='My soft skills include:' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+
+          <Text text='My technical skills include:' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+
+
 
           <Subtitle text='Tools' />
           <Text text="Here is a list of tools I use when developing and designing. These include: "/>
+          <Text text='- Visual Studio Code' />
+          <Text text='- Figma' />
+          <Text text='- Chrome DevTools' />
+          <Text text='- Stack Overflow' />
+          <Text text='- GitHub' />
+          <Text text='- Postman' />
+
 
           <Subtitle text='Other' />
           <Text text="You can downlaod my resume here." />
