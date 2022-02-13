@@ -16,6 +16,7 @@ export default function About() {
         <title>About Me</title>
         <meta name="description" content="Jeremy Carmona's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheets" href="/styles/globals.css" />
       </Head>
 
       <div className={styles.container}>
@@ -30,14 +31,42 @@ export default function About() {
 
           <Subtitle text='Experience' />
           <Text text="I have 2 years of experience in developing and designing cross-platform web and mobile applications.
-            This experience comes from BCIT's Digital Design and Development program.
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
+            This experience comes from BCIT's Digital Design and Development (D3) program. 
+
           " />
 
           <Subtitle text='My skills' />
-          <Text text="I possess various soft and technical skills." />
+          <Text text="I possess various soft and technical skills. These make me the developer I am today." />
+          <Text text='My soft skills include:' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+
+          <Text text='My technical skills include:' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+          <Text text='- Visual Studio Code' />
+
+
 
           <Subtitle text='Tools' />
           <Text text="Here is a list of tools I use when developing and designing. These include: "/>
+          <Text text='- Visual Studio Code' />
+          <Text text='- Figma' />
+          <Text text='- Chrome DevTools' />
+          <Text text='- Stack Overflow' />
+          <Text text='- GitHub' />
+          <Text text='- Postman' />
+
 
           <Subtitle text='Other' />
           <Text text="You can downlaod my resume here." />

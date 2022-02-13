@@ -15,6 +15,7 @@ export default function Home() {
         <title>Jeremy Carmona</title>
         <meta name="description" content="Jeremy Carmona's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheets" href="/styles/globals.css" />
       </Head>
 
       <div className={styles.container}>
@@ -36,7 +37,11 @@ export default function Home() {
             <Subtitle text='<Term01>'/>
               <div className={styles.lol}>
                 <Text text='
-                  My first term at BCIT, we learned how to utilize HTML and CSS to create basic web templates.
+                  This term marked my journey of wanting to become a front-end developer.
+                  There were many classes in this program, but the development classes were the ones I was most interested in.
+                  My first term at BCIT, I learned how to utilize HTML and CSS to create basic web templates.
+                  I was intrigued with the way coding works and how it is able to display text, images, etc. on a web page.
+
                 '/>
               </div>
             <Subtitle text='</Term01>'/>

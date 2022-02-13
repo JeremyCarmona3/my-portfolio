@@ -16,6 +16,7 @@ export default function Projects() {
         <title>My Projects</title>
         <meta name="description" content="Jeremy Carmona's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheets" href="/styles/globals.css" />
       </Head>
 
       <div className={styles.container}>
