@@ -26,19 +26,24 @@ export default function About() {
         </div>
         <div className={styles.lol}>
           <Subtitle text='Who I am' />
-          <Text />
+          <Text text='Hi there, my name is Jeremy Carmona. I am a Front-end Developer.' />
 
           <Subtitle text='Experience' />
-          <Text />
+          <Text text="I have 2 years of experience in developing and designing cross-platform web and mobile applications.
+            This experience comes from BCIT's Digital Design and Development program.
+          " />
 
           <Subtitle text='My skills' />
-          <Text />
+          <Text text="I possess various soft and technical skills." />
 
           <Subtitle text='Tools' />
-          <Text />
+          <Text text="Here is a list of tools I use when developing and designing. These include: "/>
 
           <Subtitle text='Other' />
-          <Text />
+          <Text text="You can downlaod my resume here." />
+          <Text text="You can contact me at: " />
+          <input type='form'></input>
+
         </div>
       </div>
     </div>
