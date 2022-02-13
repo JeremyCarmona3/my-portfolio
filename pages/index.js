@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import TypeIt from 'typeit-react'
-
 import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
+import Text from '../comps/text/text'
+
 
 export default function Home() {
   return (
@@ -27,21 +27,48 @@ export default function Home() {
           <Subtitle text='import { Term01, Term02, Term03, Term04 } from ‘BCIT’;'/>
 
           <Subtitle text='export default function JeremyCarmona() {'/>
-          <Subtitle text='return ('/>
 
-          <Subtitle text='<Term01>'/>
-          <Subtitle text='</Term01>'/>
+          <div className={styles.lol}>
+            <Subtitle text='return ('/>
+          </div>
 
-          <Subtitle text='<Term02>'/>
-          <Subtitle text='</Term02>'/>
+          <div className={styles.lols}>
+            <Subtitle text='<Term01>'/>
+              <div className={styles.lol}>
+                <Text text='
+                  My first term at BCIT, we learned how to utilize HTML and CSS to create basic web templates.
+                '/>
+              </div>
+            <Subtitle text='</Term01>'/>
+          </div>
+          
+          <div className={styles.lols}>
+            <Subtitle text='<Term02>'/>
+              <div className={styles.lol}>
+                <Text />
+              </div>
+            <Subtitle text='</Term02>'/>
+          </div>
 
-          <Subtitle text='<Term03>'/>
-          <Subtitle text='</Term03>'/>
+          <div className={styles.lols}>
+            <Subtitle text='<Term03>'/>
+              <div className={styles.lol}>
+                <Text />
+              </div>
+            <Subtitle text='</Term03>'/>
+          </div>
 
-          <Subtitle text='<Term04>'/>
-          <Subtitle text='</Term04>'/>
+          <div className={styles.lols}>
+            <Subtitle text='<Term04>'/>
+              <div className={styles.lol}>
+                <Text />
+              </div>
+            <Subtitle text='</Term04>'/>
+          </div>
 
-          <Subtitle text=');'/>
+          <div className={styles.lol}>
+            <Subtitle text=');'/>
+          </div>
           <Subtitle text='}'/>
 
         </div>

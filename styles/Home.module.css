@@ -21,6 +21,24 @@
   padding: 0 2rem;
 }
 
+.lols {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  padding: 0 4rem;
+}
+
+.lolz {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  padding: 0 6rem;
+}
+
+.lolsz {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  padding: 0 8rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

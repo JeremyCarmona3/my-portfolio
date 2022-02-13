@@ -7,6 +7,7 @@ import TypeIt from 'typeit-react'
 import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
+import Text from '../comps/text/text'
 
 export default function Projects() {
   return (
@@ -22,6 +23,19 @@ export default function Projects() {
           <Navbar />
           <Title text='My projects' />
           <Subtitle text='Some projects I have worked on' />
+        </div>
+        <div className={styles.lol}>
+          <Subtitle text='OnMe' />
+          <Text />
+
+          <Subtitle text='Project 2' />
+          <Text />
+
+          <Subtitle text='Project 3' />
+          <Text />
+
+          <Subtitle text='Project 4' />
+          <Text />
         </div>
       </div>
     </div>

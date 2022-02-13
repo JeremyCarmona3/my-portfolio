@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 const ParaText = styled.p`
-  font-size: 24px;
+  font-size: 14px;
   color: #EEEEEE;
 `;
 

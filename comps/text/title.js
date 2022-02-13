@@ -1,18 +1,27 @@
 import React from 'react';
-import styled from "styled-components";
 
-const TitleText = styled.p`
-  font-size: 96px;
-  color: #EEEEEE;
-  margin: 0;
-`;
+import TypeIt from 'typeit-react';
 
 export default function Title({
   text = 'Title text',
 }) {
+  const TypeAnim = ({ children }) => {
+    return (
+      <span style = {{fontSize:"90px", color: "#eeeeee"}}>
+        {children}
+      </span>
+    )
+  };
+
+  var StringifyText = JSON.stringify(text);
   return (
-    <TitleText>
-      {text}
-    </TitleText>
+    <TypeAnim>
+      <TypeIt options={{
+        strings: [JSON.parse(StringifyText)],
+        // speed: 10,
+        waitUntilVisible: true,
+      }}>
+      </TypeIt>
+    </TypeAnim>
   )
 }
