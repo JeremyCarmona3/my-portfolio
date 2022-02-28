@@ -6,7 +6,7 @@ const NavbarCont = styled.div`
   justify-content: flex-end;
   align-items: center;
   height: 100px;
-  width: 100vw;
+  width: 100%;
   margin: 0;
   padding: 0;
 `;
