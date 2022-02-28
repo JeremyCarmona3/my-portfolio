@@ -27,9 +27,11 @@ export default function Projects() {
         </div>
         <div className={styles.lol}>
           <Subtitle text='OnMe' />
-          <Subtitle text='Project 2' />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1NiF7avZNEI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aI62tiJApfI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          {/* <Subtitle text='Project 2' />
           <Subtitle text='Project 3' />
-          <Subtitle text='Project 4' />
+          <Subtitle text='Project 4' /> */}
         </div>
       </div>
     </div>
