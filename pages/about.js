@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import TypeIt from 'typeit-react'
+import { SiFigma } from "react-icons/si";
 
 import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
@@ -27,45 +28,77 @@ export default function About() {
         </div>
         <div className={styles.lol}>
           <Subtitle text='Who I am' />
-          <Text text='Hi there, my name is Jeremy Carmona. I am a Front-end Developer.' />
+          <p>Hi there, my name is Jeremy Carmona. I am a Front-end Developer.</p>
 
           <Subtitle text='Experience' />
-          <Text text="I have 2 years of experience in developing and designing cross-platform web and mobile applications.
-            This experience comes from BCIT's Digital Design and Development (D3) program. 
-            This experience comes from BCIT's Digital Design and Development (D3) program. 
-
-            This experience comes from BCIT's Digital Design and Development (D3) program. 
-
-            This experience comes from BCIT's Digital Design and Development (D3) program. 
-
-            This experience comes from BCIT's Digital Design and Development (D3) program. 
-
-          " />
+          <p>
+            I have 2 years of experience in developing and designing cross-platform web and mobile applications.
+            This experience comes from BCIT{"'"}s Digital Design and Development (D3) program. 
+          </p>
 
           <Subtitle text='My skills' />
-          <Text text="I possess various soft and technical skills. These make me the developer I am today." />
-          <Text text='My soft skills include:' />
-          <Text text='- Visual Studio Code' />
-          <Text text='- Visual Studio Code' />
-          <Text text='- Visual Studio Code' />
-          <Text text='- Visual Studio Code' />
+          <p>I possess various soft and technical skills. These make me the developer I am today.</p>
+          
+          <div className={styles.row}>
+            <div className={styles.col}>
+              <p>My soft skills include:</p>
+              <ul>
+                <li>Adaptability</li>
+                <li>Communicating</li>
+                <li>Critical Thinking</li>
+                <li>Problem Solving</li>
+                <li>Time management</li>
+              </ul>
+            </div>
 
-          <Text text='My technical skills include:' />
-          <Text text='- Visual Studio Code' />
-          <Text text='- Visual Studio Code' />
-          <Text text='- Visual Studio Code' />
-          <Text text='- Visual Studio Code' />
-
-
+            <div className={styles.col}>
+            <p>My technical skills include:</p>
+              <ul>
+                <li>Coding</li>
+                <li>Git Version Control</li>
+                <li>Responsive Design</li>
+                <li>Problem Solving</li>
+                <li>UX/UI Design</li>
+              </ul>
+            </div>
+          </div>
 
           <Subtitle text='Tools' />
           <Text text="Here is a list of tools I use when developing and designing. These include: "/>
-          <Text text='- Visual Studio Code' />
-          <Text text='- Figma' />
-          <Text text='- Chrome DevTools' />
-          <Text text='- Stack Overflow' />
-          <Text text='- GitHub' />
-          <Text text='- Postman' />
+          <div className={styles.row}>
+            <div className={styles.col}>
+              <Text text='Developing Tools' />
+              <Text text='- Visual Studio Code' />
+              <Text text='- Chrome DevTools' />
+              <Text text='- Stack Overflow' />
+              <Text text='- GitHub' />
+              <Text text='- Postman' />
+            </div>
+            <div className={styles.col}>
+              <Text text='Designing Tool' />
+              <div className={styles.rowSkills}>
+                <Text text='- Figma' /> 
+                <SiFigma color='#EEEEEE'/>
+              </div>
+              <div className={styles.rowSkills}>
+                <Text text='- After Effects' />
+              </div>
+              <div className={styles.rowSkills}>
+                <Text text='- Illustrator' />
+              </div>
+              <div className={styles.rowSkills}>
+                <Text text='- Indesign' />
+              </div>
+              <div className={styles.rowSkills}>
+                <Text text='- Photoshop' />
+              </div>
+              <div className={styles.rowSkills}>
+                <Text text='- Premiere Pro' />
+              </div>
+            </div>
+          </div>
+
+
 
 
           <Subtitle text='Other' />

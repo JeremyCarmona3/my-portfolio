@@ -27,16 +27,9 @@ export default function Projects() {
         </div>
         <div className={styles.lol}>
           <Subtitle text='OnMe' />
-          <Text />
-
           <Subtitle text='Project 2' />
-          <Text />
-
           <Subtitle text='Project 3' />
-          <Text />
-
           <Subtitle text='Project 4' />
-          <Text />
         </div>
       </div>
     </div>
