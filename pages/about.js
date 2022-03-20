@@ -54,7 +54,7 @@ export default function About() {
             <div className={styles.col}>
             <p>My technical skills include:</p>
               <ul>
-                <li>Coding</li>
+                <li>Coding (HTML, CSS, JavaScript, jQuery, SASS, styled-components, React, Next.js, Storybook.js, React Native, Expo, PHP, MySQL, Firebase, Node.js, Express.js, and MongoDB)</li>
                 <li>Git Version Control</li>
                 <li>Responsive Design</li>
                 <li>Problem Solving</li>
@@ -64,36 +64,36 @@ export default function About() {
           </div>
 
           <Subtitle text='Tools' />
-          <Text text="Here is a list of tools I use when developing and designing. These include: "/>
+          <p>Here is a list of tools I use when developing and designing. These include:</p>
           <div className={styles.row}>
             <div className={styles.col}>
-              <Text text='Developing Tools' />
-              <Text text='- Visual Studio Code' />
-              <Text text='- Chrome DevTools' />
-              <Text text='- Stack Overflow' />
-              <Text text='- GitHub' />
-              <Text text='- Postman' />
+              <p> Developing Tools</p>
+              <p> - Visual Studio Code</p>
+              <p> - Chrome DevTools</p>
+              <p> - Stack Overflow</p>
+              <p> - GitHub</p>
+              <p> - Postman</p>
             </div>
             <div className={styles.col}>
-              <Text text='Designing Tool' />
+              <p> Designing Tool</p>
               <div className={styles.rowSkills}>
-                <Text text='- Figma' /> 
+                <p> - Figma</p> 
                 <SiFigma color='#EEEEEE'/>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- After Effects' />
+                <p> - After Effects</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Illustrator' />
+                <p> - Illustrator</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Indesign' />
+                <p> - Indesign</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Photoshop' />
+                <p> - Photoshop</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Premiere Pro' />
+                <p> - Premiere Pro</p>
               </div>
             </div>
           </div>
@@ -102,10 +102,9 @@ export default function About() {
 
 
           <Subtitle text='Other' />
-          <Text text="You can downlaod my resume here." />
-          <Text text="You can contact me at: " />
+          <p> You can downlaod my resume here.</p>
+          <p> You can contact me at: </p>
           <input type='form'></input>
-
         </div>
       </div>
     </div>
