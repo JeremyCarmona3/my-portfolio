@@ -3,9 +3,6 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 100vh; */
   background-color: #0F111A;
 }
 
@@ -15,28 +12,12 @@
   align-items: center;
 }
 
-.lol {
-  /* display: flex; */
-  /* align-items: flex-start; */
+.onetab {
   padding: 0 2rem;
 }
 
-.lols {
-  /* display: flex; */
-  /* align-items: flex-start; */
+.twotab {
   padding: 0 4rem;
-}
-
-.lolz {
-  /* display: flex; */
-  /* align-items: flex-start; */
-  padding: 0 6rem;
-}
-
-.lolsz {
-  /* display: flex; */
-  /* align-items: flex-start; */
-  padding: 0 8rem;
 }
 
 .row {
@@ -54,6 +35,16 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+.flexone {
+  display: flex;
+  flex: 1;
+}
+
+.onme_iframe {
+  border: 10px solid #EEEEEE;
+  border-radius: 20px;
 }
 
 
