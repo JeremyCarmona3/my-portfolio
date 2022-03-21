@@ -39,26 +39,10 @@ export default function Home() {
             <div className={styles.onetab}>
               <div className={styles.row}>
                 <div className={styles.flexone}>
-                  <p>
-                    This term marked my journey of wanting to become a front-end developer.
-                    There were many classes in this program, but the development classes were the ones I was most interested in.
-                    My first term at BCIT, I learned how to utilize HTML and CSS to create basic web templates.
-                    I was intrigued with the way coding works and how it is able to display text, images, etc. on a web page.
-                    During this term, we were assigned to create a mockup business website.
-                    I collaborated with a partner and we decided to design and develop a website for a tea store.
-                    We called it Chatea and this company provides proudly serves customers with a variety of tea choices, as well as tea products (tea tables, scales, water boilers, mugs, flavours, pots, etc.).
-                    For the website, my partner was lead designer and I was the secondary designer. 
-                    Meanwhile, I was the lead developer and my partner was the secondary developer.
-                    We worked collaboratively to create Chatea and this was the first website that we created.
-                    At this point in our education, we only learned the basics of designing and developing a website, so Chatea is not a responsive website.
-                  </p>
+                  <p>Description</p>
                 </div>
                 <div className={styles.flexone}>
-                  <Image 
-                    src='/favicon.ico'
-                    alt='image'
-                    width={1200} height={200}
-                  />
+                  <p>Image here</p>
                 </div>
               </div>
             </div>
@@ -70,26 +54,10 @@ export default function Home() {
             <div className={styles.onetab}>
               <div className={styles.row}>
                 <div className={styles.flexone}>
-                  <p>
-                    This term marked my journey of wanting to become a front-end developer.
-                    There were many classes in this program, but the development classes were the ones I was most interested in.
-                    My first term at BCIT, I learned how to utilize HTML and CSS to create basic web templates.
-                    I was intrigued with the way coding works and how it is able to display text, images, etc. on a web page.
-                    During this term, we were assigned to create a mockup business website.
-                    I collaborated with a partner and we decided to design and develop a website for a tea store.
-                    We called it Chatea and this company provides proudly serves customers with a variety of tea choices, as well as tea products (tea tables, scales, water boilers, mugs, flavours, pots, etc.).
-                    For the website, my partner was lead designer and I was the secondary designer. 
-                    Meanwhile, I was the lead developer and my partner was the secondary developer.
-                    We worked collaboratively to create Chatea and this was the first website that we created.
-                    At this point in our education, we only learned the basics of designing and developing a website, so Chatea is not a responsive website.
-                  </p>
+                  <p>Description</p>
                 </div>
                 <div className={styles.flexone}>
-                  <Image 
-                    src='/favicon.ico'
-                    alt='image'
-                    width={1200} height={200}
-                  />
+                  <p>Image here</p>
                 </div>
               </div>
             </div>
@@ -101,9 +69,11 @@ export default function Home() {
             <div className={styles.onetab}>
               <div className={styles.row}>
                 <div className={styles.flexone}>
-                  <p>
+                  {/* <p>
                     OnMe
-                  </p>
+                  </p> */}
+                  <p>Description</p>
+
                 </div>
                 <div className={styles.flexone}>  
                   {/* <Image 
@@ -111,7 +81,7 @@ export default function Home() {
                     alt='image'
                     width={1284} height={2778}
                   /> */}
-                  <iframe 
+                  {/* <iframe 
                     className={styles.onme_iframe}
                     // style="border: 1px solid rgba(0, 0, 0, 0.1);" 
                     // width="800" 
@@ -119,7 +89,8 @@ export default function Home() {
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FB3WPrgbh5Sq2kZvxPYw614%2FOnMe(Demo)%3Fpage-id%3D0%253A1%26node-id%3D2%253A6%26viewport%3D241%252C48%252C0.22%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2" 
                     allowFullScreen
                   >
-                  </iframe>
+                  </iframe> */}
+                  <p>Image here</p>
                 </div>
               </div>
             </div>
@@ -131,26 +102,10 @@ export default function Home() {
             <div className={styles.onetab}>
               <div className={styles.row}>
                 <div className={styles.flexone}>
-                  <p>
-                    This term marked my journey of wanting to become a front-end developer.
-                    There were many classes in this program, but the development classes were the ones I was most interested in.
-                    My first term at BCIT, I learned how to utilize HTML and CSS to create basic web templates.
-                    I was intrigued with the way coding works and how it is able to display text, images, etc. on a web page.
-                    During this term, we were assigned to create a mockup business website.
-                    I collaborated with a partner and we decided to design and develop a website for a tea store.
-                    We called it Chatea and this company provides proudly serves customers with a variety of tea choices, as well as tea products (tea tables, scales, water boilers, mugs, flavours, pots, etc.).
-                    For the website, my partner was lead designer and I was the secondary designer. 
-                    Meanwhile, I was the lead developer and my partner was the secondary developer.
-                    We worked collaboratively to create Chatea and this was the first website that we created.
-                    At this point in our education, we only learned the basics of designing and developing a website, so Chatea is not a responsive website.
-                  </p>
+                  <p>Description</p>
                 </div>
                 <div className={styles.flexone}>
-                  <Image 
-                    src='/favicon.ico'
-                    alt='image'
-                    width={1200} height={200}
-                  />
+                  <p>Image here</p>
                 </div>
               </div>
             </div>
