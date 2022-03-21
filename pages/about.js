@@ -26,15 +26,49 @@ export default function About() {
           <Title text='About Me' />
           <Subtitle text='Some things about me' />
         </div>
-        <div className={styles.lol}>
+        <div className={styles.onetab}>
           <Subtitle text='Who I am' />
-          <p>Hi there, my name is Jeremy Carmona. I am a Front-end Developer.</p>
+          <div className={styles.row}>
+            <div className={styles.col}>
+              <p>
+                Hi there, my name is Jeremy Carmona and I was born in the Philippines.
+                In April 2009, my family and I immigrated to Canada.
+                As a child, I enjoyed solving the Rubik{"'"}s cube and playing chess.
+                I started my interest in coding when I took a graphic design course in highschool.
+                During this course, we used Notepad++ to learn how to code in HTML and CSS to create websites.
+                In addition, we also were taught how to utilize Photoshop to create graphic design content to add to our website.
+                After learning HTML and CSS, I proceeded to take an introduction course in computer programming where we learned how to code in Java.
+                We covered topics such as logic, loops, arrays, etc. to create various projects.
+                Some of the projects we made were an interest calculator, a spaceship game, a simple language translator, and a basic weather app.
+              </p>
 
-          <Subtitle text='Experience' />
-          <p>
-            I have 2 years of experience in developing and designing cross-platform web and mobile applications.
-            This experience comes from BCIT{"'"}s Digital Design and Development (D3) program. 
-          </p>
+              <p>
+                In 2020, I got accepted for the Digital Design and Development program at BCIT.
+                During 2 years at BCIT, I learned many things ranging from design work to development work.
+                Although I like designing, developing web and mobile cross-platform applications was something I was mroe passionate about.
+                I learned various coding languages, frameworks, and libraries during my time at BCIT.
+              </p>
+
+              <p>
+                During my free time, I like to play the guitar and play video games with my friends.
+              </p>
+            </div>
+            <div className={styles.col}>
+              <div className={styles.profilepic}>
+                <div className={styles.avatar}>
+                  <Image 
+                    src='/ProfilePic.JPG'
+                    alt='image'
+                    width={336} height={421}
+                  />
+                </div>
+                <p>Hi there, I am Jeremy and I like to code!</p>
+                <p>GitHub: <a href='https://github.com/JeremyCarmona3/' target="_blank" rel="noreferrer">JeremyCarmona3</a></p>
+                <p>LinkedIn: <a href='https://www.linkedin.com/in/jeremy-carmona-0685731bb/' target="_blank" rel="noreferrer">Jeremy Carmona</a></p>
+
+              </div>
+            </div>
+          </div>
 
           <Subtitle text='My skills' />
           <p>I possess various soft and technical skills. These make me the developer I am today.</p>
@@ -54,7 +88,7 @@ export default function About() {
             <div className={styles.col}>
             <p>My technical skills include:</p>
               <ul>
-                <li>Coding</li>
+                <li>Coding (HTML, CSS, JavaScript, jQuery, SASS, styled-components, React, Next.js, Storybook.js, React Native, Expo, PHP, MySQL, Firebase, Node.js, Express.js, and MongoDB)</li>
                 <li>Git Version Control</li>
                 <li>Responsive Design</li>
                 <li>Problem Solving</li>
@@ -64,48 +98,44 @@ export default function About() {
           </div>
 
           <Subtitle text='Tools' />
-          <Text text="Here is a list of tools I use when developing and designing. These include: "/>
+          <p>Here is a list of tools I use when developing and designing. These include:</p>
           <div className={styles.row}>
             <div className={styles.col}>
-              <Text text='Developing Tools' />
-              <Text text='- Visual Studio Code' />
-              <Text text='- Chrome DevTools' />
-              <Text text='- Stack Overflow' />
-              <Text text='- GitHub' />
-              <Text text='- Postman' />
+              <p> Developing Tools</p>
+              <p> - Visual Studio Code</p>
+              <p> - Chrome DevTools</p>
+              <p> - Stack Overflow</p>
+              <p> - GitHub</p>
+              <p> - Postman</p>
             </div>
             <div className={styles.col}>
-              <Text text='Designing Tool' />
+              <p> Designing Tools</p>
               <div className={styles.rowSkills}>
-                <Text text='- Figma' /> 
-                <SiFigma color='#EEEEEE'/>
+                <p> - Figma</p> 
+                {/* <SiFigma color='#EEEEEE'/> */}
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- After Effects' />
+                <p> - After Effects</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Illustrator' />
+                <p> - Illustrator</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Indesign' />
+                <p> - Indesign</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Photoshop' />
+                <p> - Photoshop</p>
               </div>
               <div className={styles.rowSkills}>
-                <Text text='- Premiere Pro' />
+                <p> - Premiere Pro</p>
               </div>
             </div>
           </div>
 
-
-
-
-          <Subtitle text='Other' />
-          <Text text="You can downlaod my resume here." />
-          <Text text="You can contact me at: " />
-          <input type='form'></input>
-
+          {/* <Subtitle text='Other' />
+          <p> You can downlaod my resume here.</p>
+          <p> You can contact me at: </p>
+          <input type='form'></input> */}
         </div>
       </div>
     </div>
