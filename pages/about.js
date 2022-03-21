@@ -62,7 +62,10 @@ export default function About() {
                     width={336} height={421}
                   />
                 </div>
-                <p>Jeremy Carmona</p>
+                <p>Hi there, I am Jeremy and I like to code!</p>
+                <p>GitHub: <a href='https://github.com/JeremyCarmona3/' target="_blank" rel="noreferrer">JeremyCarmona3</a></p>
+                <p>LinkedIn: <a href='https://www.linkedin.com/in/jeremy-carmona-0685731bb/' target="_blank" rel="noreferrer">Jeremy Carmona</a></p>
+
               </div>
             </div>
           </div>

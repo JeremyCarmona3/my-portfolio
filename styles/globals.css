@@ -21,3 +21,10 @@ p, li {
   font-size: 14px;
   color: #EEEEEE;
 }
+
+a:hover {
+  color: #C792EA;
+}
+a:active {
+  color: #C792EA;
+}
