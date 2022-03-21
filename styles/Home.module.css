@@ -23,6 +23,7 @@
 .row {
   display: flex;
   flex-direction: row;
+  /* border: 1px solid white; */
 }
 
 .rowSkills {
@@ -35,6 +36,13 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+.colProjects {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 15px;
 }
 
 .flexone {

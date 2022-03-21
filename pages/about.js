@@ -71,7 +71,6 @@ export default function About() {
           </div>
 
           <Subtitle text='My skills' />
-          <p>I possess various soft and technical skills. These make me the developer I am today.</p>
           
           <div className={styles.row}>
             <div className={styles.col}>
@@ -98,37 +97,40 @@ export default function About() {
           </div>
 
           <Subtitle text='Tools' />
-          <p>Here is a list of tools I use when developing and designing. These include:</p>
           <div className={styles.row}>
             <div className={styles.col}>
               <p> Developing Tools</p>
-              <p> - Visual Studio Code</p>
-              <p> - Chrome DevTools</p>
-              <p> - Stack Overflow</p>
-              <p> - GitHub</p>
-              <p> - Postman</p>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>Chrome DevTools</li>
+                <li>Stack Overflow</li>
+                <li>GitHub</li>
+                <li>Postman</li>
+              </ul>
             </div>
             <div className={styles.col}>
               <p> Designing Tools</p>
-              <div className={styles.rowSkills}>
-                <p> - Figma</p> 
-                {/* <SiFigma color='#EEEEEE'/> */}
-              </div>
-              <div className={styles.rowSkills}>
-                <p> - After Effects</p>
-              </div>
-              <div className={styles.rowSkills}>
-                <p> - Illustrator</p>
-              </div>
-              <div className={styles.rowSkills}>
-                <p> - Indesign</p>
-              </div>
-              <div className={styles.rowSkills}>
-                <p> - Photoshop</p>
-              </div>
-              <div className={styles.rowSkills}>
-                <p> - Premiere Pro</p>
-              </div>
+              <ul>
+                <div className={styles.rowSkills}>
+                  <li>Figma</li> 
+                  {/* <SiFigma color='#EEEEEE'/> */}
+                </div>
+                <div className={styles.rowSkills}>
+                  <li>After Effects</li>
+                </div>
+                <div className={styles.rowSkills}>
+                  <li>Illustrator</li>
+                </div>
+                <div className={styles.rowSkills}>
+                  <li>Indesign</li>
+                </div>
+                <div className={styles.rowSkills}>
+                  <li>Photoshop</li>
+                </div>
+                <div className={styles.rowSkills}>
+                  <li>Premiere Pro</li>
+                </div>
+              </ul>
             </div>
           </div>
 
