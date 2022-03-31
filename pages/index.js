@@ -6,7 +6,6 @@ import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,7 +20,9 @@ export default function Home() {
     </Head>
       <div className={styles.center}>
         <Navbar />
-        <Title text='Jeremy Carmona' />
+        <div className={styles.typeit}>
+          <Title text="Hi, I'm Jeremy Carmona and I like to code!" />
+        </div>
         <Subtitle text='My roadmap as a Front-end Developer' />
       </div>
       <div className={styles.onetab}>

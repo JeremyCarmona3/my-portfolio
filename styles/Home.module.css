@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.typeit {
+  display: flex;
+  width: 80%;
+  text-align: center;
+}
+
 .onetab {
   padding: 0 2rem;
 }
