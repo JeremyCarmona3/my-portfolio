@@ -56,6 +56,12 @@
   flex: 1;
 }
 
+.termprojects {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+}
+
 .onme_iframe {
   border: 10px solid #EEEEEE;
   border-radius: 20px;
