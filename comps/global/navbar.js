@@ -14,22 +14,27 @@ const NavbarCont = styled.div`
 const NavbarText = styled.a`
   font-size: 24px;
   padding-right: 40px;
-  color: #EEEEEE;
+  color: ${props => props.linkcolor};
   &:hover {
-    color: #C792EA; // <Thing> when hovered
+    color: #ffcb6b; // <Thing> when hovered
   }
   &:active {
-    color: #C792EA;
+    color: #c3e88d;
   }
 `;
 
-export default function Navbar()  {
+export default function Navbar({
+  home='#EEEEEE',
+  projects='#EEEEEE',
+  about='#EEEEEE',
+  github='#EEEEEE'
+}) {
   return (
     <NavbarCont>
-      <NavbarText href='/'>Home()</NavbarText>
-      <NavbarText href='/projects'>Projects()</NavbarText>
-      <NavbarText href='/about'>About()</NavbarText>
-      <NavbarText href='https://github.com/JeremyCarmona3/' target="_blank">Github()</NavbarText>
+      <NavbarText linkcolor={home} href='/'>Home()</NavbarText>
+      <NavbarText linkcolor={projects} href='/projects'>Projects()</NavbarText>
+      <NavbarText linkcolor={about}href='/about'>About()</NavbarText>
+      <NavbarText linkcolor={github}href='https://github.com/JeremyCarmona3/' target="_blank">Github()</NavbarText>
     </NavbarCont>
   )
 }

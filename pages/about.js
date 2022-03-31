@@ -21,7 +21,7 @@ export default function About() {
 
       <div className={styles.container}>
         <div className={styles.center}>
-          <Navbar />
+          <Navbar about='#C792EA' />
           <Title text='About Me' />
           <Subtitle text='Some things about me' />
         </div>

@@ -19,7 +19,7 @@ export default function Home() {
       <link rel="stylesheets" href="/styles/globals.css" />
     </Head>
       <div className={styles.center}>
-        <Navbar />
+        <Navbar home='#C792EA' />
         <div className={styles.typeit}>
           <Title text="Hi, I'm Jeremy Carmona and I like to code!" />
         </div>
