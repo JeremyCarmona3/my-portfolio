@@ -21,7 +21,7 @@ export default function Projects() {
 
       <div className={styles.container}>
         <div className={styles.center}>
-          <Navbar />
+          <Navbar projects='#C792EA' />
           <Title text='My projects' />
           <Subtitle text='Some projects I have worked on' />
         </div>
