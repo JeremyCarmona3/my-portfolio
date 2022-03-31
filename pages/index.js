@@ -6,6 +6,8 @@ import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
 
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiStyledcomponents, SiExpo, SiPhp, SiMysql, SiFirebase, SiNodedotjs, SiMongodb, SiSocketdotio } from "react-icons/si";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -50,12 +52,11 @@ export default function Home() {
                 </div>
                 <div className={styles.flexone}>
                   <div>
-                    <p>Skills</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>UX/UI Design</li>
-                    </ul>
+                    <Subtitle text='Made with'/>
+                    <div className={styles.homeskills}>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiHtml5/></span> HTML</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiCss3/></span> CSS</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -86,17 +87,15 @@ export default function Home() {
                 </div>
                 <div className={styles.flexone}>
                   <div>
-                    <p>Skills Used</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JS</li>
-                      <li>React</li>
-                      <li>Next.js</li>
-                      <li>Styled-components</li>
-                      <li>Source code management (Git)</li>
-                      <li>UX/UI Design</li>
-                    </ul>
+                    <Subtitle text='Made with'/>
+                    <div className={styles.homeskills}>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiHtml5/></span> HTML</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiCss3/></span> CSS</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiJavascript/></span> JS</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiReact/></span> React</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiNextdotjs/></span> Next.js</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiStyledcomponents/></span> Styled-components</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -142,20 +141,15 @@ export default function Home() {
                 </div>
                 <div className={styles.flexone}>
                   <div>
-                    <p>Skills Used</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JS</li>
-                      <li>React Native</li>
-                      <li>Styled-components</li>
-                      <li>Expo</li>
-                      <li>PHP</li>
-                      <li>MySQL</li>
-                      <li>Source code management (Git)</li>
-                      <li>UX/UI Design</li>
-                      <li>Responsive Design</li>
-                    </ul>
+                    <Subtitle text='Made with'/>
+                    <div className={styles.homeskills}>
+                      <span  className={styles.iconcont}><span className={styles.icon}><SiReact/></span> React Native</span>
+                      <span  className={styles.iconcont}><span className={styles.icon}><SiStyledcomponents/></span> Styled-components</span>
+                      <span  className={styles.iconcont}><span className={styles.icon}><SiExpo/></span> Expo</span>
+                      <span  className={styles.iconcont}><span className={styles.icon}><SiPhp/></span> PHP</span>
+                      <span  className={styles.iconcont}><span className={styles.icon}><SiMysql/></span> MySQL</span>
+                      <span  className={styles.iconcont}><span className={styles.icon}><SiFirebase/></span> Firebase</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -179,22 +173,17 @@ export default function Home() {
                 </div>
                 <div className={styles.flexone}>
                   <div>
-                    <p>Skills Used</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JS</li>
-                      <li>React</li>
-                      <li>Next.js</li>
-                      <li>Styled-components</li>
-                      <li>Node.js</li>
-                      <li>MongoDB</li>
-                      <li>React DND</li>
-                      <li>Sockets</li>
-                      <li>Source code management (Git)</li>
-                      <li>UX/UI Design</li>
-                      <li>Responsive Design</li>
-                    </ul>
+                    <Subtitle text='Made with'/>
+                    <div className={styles.homeskills}>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiJavascript/></span> JS</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiReact/></span> React</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiNextdotjs/></span> Next.js</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiStyledcomponents/></span> Styled-components</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiNodedotjs/></span> Node.js</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiMongodb/></span> MongoDB</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiReact/></span> React DnD</span>
+                      <span className={styles.iconcont}><span className={styles.icon}><SiSocketdotio/></span> Socket.IO</span>
+                    </div>
                   </div>
                 </div>
               </div>

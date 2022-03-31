@@ -17,10 +17,15 @@ a {
   background-color: #0F111A;
 }
 
-p, li {
+p {
   font-size: 14px;
   color: #EEEEEE;
 }
+/* 
+ul {
+  color: #EEEEEE;
+  font-size: 24px;
+} */
 
 a:hover {
   color: #ffcb6b;
