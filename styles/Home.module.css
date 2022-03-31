@@ -19,11 +19,11 @@
 }
 
 .onetab {
-  padding: 0 2rem;
+  padding-left: 2rem;
 }
 
 .twotab {
-  padding: 0 4rem;
+  padding-left: 4rem;
 }
 
 .row {
@@ -60,6 +60,7 @@
   display: flex;
   flex: 1;
   padding: 10px;
+  height: fit-content;
 }
 
 .onme_iframe {
@@ -79,6 +80,33 @@
   /* height: 50%; */
 }
 
+.homeskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #EEEEEE;
+  font-size: 14px;
+}
+
+.iconcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EEEEEE;
+  font-size: 4.5rem;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+  width: 9rem;
+  height: 9rem;
+  margin: 0.5rem;
+}
 
 @media (max-width: 600px) {
   .grid {
