@@ -62,11 +62,10 @@ export default function About() {
                     alt='image'
                     width={336} height={421}
                   />
+                  <p>Hi there, I am Jeremy and I like to code!</p>
+                  <p>GitHub: <a href='https://github.com/JeremyCarmona3/' target="_blank" rel="noreferrer">JeremyCarmona3</a></p>
+                  <p>LinkedIn: <a href='https://www.linkedin.com/in/jeremy-carmona-0685731bb/' target="_blank" rel="noreferrer">Jeremy Carmona</a></p>
                 </div>
-                <p>Hi there, I am Jeremy and I like to code!</p>
-                <p>GitHub: <a href='https://github.com/JeremyCarmona3/' target="_blank" rel="noreferrer">JeremyCarmona3</a></p>
-                <p>LinkedIn: <a href='https://www.linkedin.com/in/jeremy-carmona-0685731bb/' target="_blank" rel="noreferrer">Jeremy Carmona</a></p>
-
               </div>
             </div>
           </div>
