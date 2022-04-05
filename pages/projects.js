@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
+import Footer from '../comps/global/footer'
 
 export default function Projects() {
   return (
@@ -88,6 +89,7 @@ export default function Projects() {
           <Subtitle text='Project 4' /> */}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

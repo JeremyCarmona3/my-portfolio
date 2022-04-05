@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
+import Footer from '../comps/global/footer'
 
 export default function About() {
   return (
@@ -139,6 +140,7 @@ export default function About() {
           <input type='form'></input> */}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

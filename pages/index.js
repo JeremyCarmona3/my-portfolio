@@ -7,6 +7,7 @@ import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
 
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiStyledcomponents, SiExpo, SiPhp, SiMysql, SiFirebase, SiNodedotjs, SiMongodb, SiSocketdotio } from "react-icons/si";
+import Footer from '../comps/global/footer'
 
 export default function Home() {
   return (
@@ -195,8 +196,9 @@ export default function Home() {
           <Subtitle text=');'/>
         </div>
         <Subtitle text='}'/>
-
+        
       </div>
+      <Footer />
     </div>
   )
 }
