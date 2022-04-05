@@ -6,6 +6,7 @@ import Navbar from '../comps/global/navbar'
 import Title from '../comps/text/title'
 import Subtitle from '../comps/text/subtitle'
 import Footer from '../comps/global/footer'
+import { SiAdobeaftereffects, SiAdobeillustrator, SiAdobeindesign, SiAdobephotoshop, SiAdobepremierepro, SiFigma } from 'react-icons/si'
 
 export default function About() {
   return (
@@ -73,26 +74,51 @@ export default function About() {
           <Subtitle text='My skills' />
           
           <div className={styles.row}>
+
+            <div className={styles.col}>
+            <p>My technical skills include:</p>
+              <ul className={styles.list}>
+                <li>Coding</li>
+                <ul className={styles.list}>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>SASS</li>
+                  <li>styled-components</li>
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>Storybook.js</li>
+                  <li>React Native</li>
+                  <li>Expo</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                  <li>Firebase</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>MongoDB</li>
+                </ul>
+                <li>Git Version Control</li>
+                <li>Responsive Design</li>
+                <li>Problem Solving</li>
+                <li>UX/UI Design</li>
+              </ul>
+            </div>
+
             <div className={styles.col}>
               <p>My soft skills include:</p>
-              <ul>
+              <ul className={styles.list}>
                 <li>Adaptability</li>
                 <li>Communicating</li>
                 <li>Critical Thinking</li>
                 <li>Problem Solving</li>
                 <li>Time management</li>
               </ul>
-            </div>
-
-            <div className={styles.col}>
-            <p>My technical skills include:</p>
-              <ul>
-                <li>Coding (HTML, CSS, JavaScript, jQuery, SASS, styled-components, React, Next.js, Storybook.js, React Native, Expo, PHP, MySQL, Firebase, Node.js, Express.js, and MongoDB)</li>
-                <li>Git Version Control</li>
-                <li>Responsive Design</li>
-                <li>Problem Solving</li>
-                <li>UX/UI Design</li>
-              </ul>
+              <Image
+                src='/SoftSkills.webp'
+                alt='Soft skills image'
+                width={500} height={333}
+              />
             </div>
           </div>
 
@@ -100,7 +126,7 @@ export default function About() {
           <div className={styles.row}>
             <div className={styles.col}>
               <p> Developing Tools</p>
-              <ul>
+              <ul className={styles.list}>
                 <li>Visual Studio Code</li>
                 <li>Chrome DevTools</li>
                 <li>Stack Overflow</li>
@@ -110,25 +136,30 @@ export default function About() {
             </div>
             <div className={styles.col}>
               <p> Designing Tools</p>
-              <ul>
-                <div className={styles.rowSkills}>
+              <ul className={styles.list}>
+                <div className={styles.rowTools}>
                   <li>Figma</li> 
-                  {/* <SiFigma color='#EEEEEE'/> */}
+                  <SiFigma/> 
                 </div>
-                <div className={styles.rowSkills}>
+                <div className={styles.rowTools}>
                   <li>After Effects</li>
+                  <SiAdobeaftereffects/>
                 </div>
-                <div className={styles.rowSkills}>
+                <div className={styles.rowTools}>
                   <li>Illustrator</li>
+                  <SiAdobeillustrator/>
                 </div>
-                <div className={styles.rowSkills}>
+                <div className={styles.rowTools}>
                   <li>Indesign</li>
+                  <SiAdobeindesign/>
                 </div>
-                <div className={styles.rowSkills}>
+                <div className={styles.rowTools}>
                   <li>Photoshop</li>
+                  <SiAdobephotoshop/>
                 </div>
-                <div className={styles.rowSkills}>
+                <div className={styles.rowTools}>
                   <li>Premiere Pro</li>
+                  <SiAdobepremierepro/>
                 </div>
               </ul>
             </div>
