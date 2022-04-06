@@ -53,6 +53,7 @@ export default function Footer({
         <FooterText onClick={() => router.push('/termsofuses')}>Terms of uses</FooterText>
         <FooterText onClick={() => router.push('/privacypolicy')}>Privacy Policy</FooterText>
       </Section>
+      <p>&copy; Copyright 2022 Jeremy Carmona. All right{"'"}s reserved.</p>
     </Cont>
   </div>
   )
