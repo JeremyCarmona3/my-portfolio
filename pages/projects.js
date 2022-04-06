@@ -30,6 +30,22 @@ export default function Projects() {
           <Subtitle text='OnMe' />
           <div className={styles.row}>
             <div className={styles.colProjects}>
+              <p>
+                The following video is a screen recording of a live demo of the OnMe application through a simulator in Xcode.
+                Steps in the video include:
+                Signing up,
+                Selecting a restaurant,
+                Selecting a drink,
+                Selecting a recipient,
+                Adding a message,
+                Paying for the order, and
+                Send another drink ;).
+              </p>
+              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1NiF7avZNEI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+            </div>
+            <div className={styles.colProjects}>
               <p>{'"'}Create a connection, with a little liquid courage.{'"'}</p>
 
               <p>
@@ -42,51 +58,87 @@ export default function Projects() {
               <p>Designers: Alicia Yien, Arielle Castro, Charlene Tran, and Min Chun</p>
 
               <p>Developers: Danny Nguyen and Jeremy Carmona</p>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/aI62tiJApfI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
-            <div className={styles.colProjects}>
-              <p>
-                The following video is a screen recording of a live demo of the OnMe application through a simulator in Xcode.
-                Steps in the video include:
-              </p>
-              <ul>
-                <li>Signing up</li>
-                <li>Selecting a restaurant</li>
-                <li>Selecting a drink</li>
-                <li>Selecting a recipient</li>
-                <li>Adding a message</li>
-                <li>Paying for the order</li>
-                <li>Send another drink ;)</li>
-              </ul>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/1NiF7avZNEI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
             </div>
           </div>
 
           <Subtitle text='Moji Meals' />
           <div className={styles.row}>
-            <div className={styles.colProjects}>
-              <p>Description</p>
-
-              <p>Designers: Alicia Plesich, Maharlika Clomata, and William McDonald</p>
-
-              <p>Developers: Iori Takeshita and Jeremy Carmona</p>
+          <div className={styles.colProjects}>
               <div>
                 <Image 
-                  src='/MojiMeals-Assets/MojiMealsLogo.png' 
+                  src='/MojiMeals-Assets/MojiMeals-1.png' 
                   alt="Moji Meals Logo"
-                  width={243} 
-                  height={122} 
+                  width={2880} height={1637}
+                />
+                <Image 
+                  src='/MojiMeals-Assets/MojiMeals-2.png' 
+                  alt="Moji Meals Logo"
+                  width={2880} height={1637}
                 />
               </div>
             </div>
             <div className={styles.colProjects}>
-              <p>Pictures</p>
+              <p>MojiMeals is an application that will display a list of emojis from our chosen dataset. When a user clicks an emoji, it will lead to the next page and show the nutrition data of the emoji ingredient or food. It features other pages such as Find Recipe, Settings, and Calculator.</p>
+
+              <p><a href='https://moji-meals.vercel.app/'>Live Site: MojiMeals</a></p>
+
+              <p>Designers: Alicia Plesich, Maharlika Clomata, and William McDonald</p>
+
+              <p>Developers: Iori Takeshita and Jeremy Carmona</p>
             </div>
           </div>
-          
-          {/* <Subtitle text='Project 2' />
-          <Subtitle text='Project 3' />
-          <Subtitle text='Project 4' /> */}
+
+          <Subtitle text='Chatea' />
+          <div className={styles.row}>
+            <div className={styles.colProjects}>
+              <Image 
+                src='/Chatea-Assets/Chatea-1.png'
+                alt='Chatea landing page'
+                width={2556} height={1606}
+              />
+            </div>
+            <div className={styles.colProjects}>
+              <p>Chatea is a business website targetted towards those interested in tea.</p>
+
+              <p><a>Live Site: Chatea</a></p>
+
+              <p>Designers: Josh Reyes</p>
+
+              <p>Developers: Jeremy Carmona</p>
+            </div>
+          </div>
+
+          <Subtitle text='Giving Hand' />
+          <div className={styles.row}>
+            <div className={styles.colProjects}>
+              <div className={styles.rowProjects}>
+                <div>
+                  <Image 
+                    src='/GivingHand-Assets/GivingHand-1.png'
+                    alt='Giving Hand landing page'
+                    width={249} height={442}
+                  />
+                </div>
+                <div>
+                  <Image 
+                    src='/GivingHand-Assets/GivingHand-2.png'
+                    alt='Giving Hand landing page'
+                    width={249} height={442}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className={styles.colProjects}>
+              <p>Giving Hand is an app to help end homelessness for the people of Vancouver by providing a safe, temporary refuge and critical services to support them in healing, rebuilding their lives and integrating them back into a community.</p>
+
+              <p><a href='https://giving-hand-app.vercel.app/'>Live Site: GivingHand</a></p>
+
+              <p>Designers: Aryan Heravi, Josh Reyes, and Matthew Zhao</p>
+
+              <p>Developers: Aryan Heravi, Jeremy Carmona, Josh Reyes, and Matthew Zhao</p>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
