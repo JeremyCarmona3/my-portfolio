@@ -24,6 +24,9 @@ export default function Copyright() {
         <div className={styles.center}>
           <Navbar />
           <Title text='Copyright' />
+          <div className={styles.padding}>
+            <p>&copy; Copyright 2022 Jeremy Carmona. All right{"'"}s reserved.</p>
+          </div>
         </div>
         <Footer />
       </div>
