@@ -109,21 +109,7 @@ export default function Home() {
             <div className={styles.onetab}>
               <Subtitle text='OnMe'/>
               <div className={styles.row}>
-                <div className={styles.flexone}>  
-                  {/* <Image 
-                    src='/OnMe-Assets/OnMe-1.png'
-                    alt='image'
-                    width={1284} height={2778}
-                  /> */}
-                  {/* <iframe 
-                    className={styles.onme_iframe}
-                    // style="border: 1px solid rgba(0, 0, 0, 0.1);" 
-                    // width="800" 
-                    height="450" 
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FB3WPrgbh5Sq2kZvxPYw614%2FOnMe(Demo)%3Fpage-id%3D0%253A1%26node-id%3D2%253A6%26viewport%3D241%252C48%252C0.22%26scaling%3Dscale-down%26starting-point-node-id%3D2%253A2" 
-                    allowFullScreen
-                  >
-                </iframe> */}
+                <div className={styles.flexone}>
                   <div className={styles.termprojects}>
                     <Image 
                       src='/OnMe-Assets/OnMe-1.png'

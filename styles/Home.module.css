@@ -31,6 +31,12 @@
   flex-direction: row;
 }
 
+.rowProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .rowTools {
   display: flex;
   flex-direction: row;
@@ -57,15 +63,8 @@
 }
 
 .termprojects {
-  /* display: flex; */
-  /* flex: 1; */
   padding: 10px;
   height: fit-content;
-}
-
-.onme_iframe {
-  border: 10px solid #EEEEEE;
-  border-radius: 20px;
 }
 
 .profilepic {
