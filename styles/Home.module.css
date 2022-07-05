@@ -3,7 +3,7 @@
   /* padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
-  background-color: #0F111A;
+  background-color: #0f111a;
 }
 
 .center {
@@ -60,6 +60,7 @@
 .flexone {
   display: flex;
   flex: 1;
+  grid-template-columns: 1fr 1fr;
 }
 
 .termprojects {
@@ -78,7 +79,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-radius: 20px;
   padding: 50px;
 }
@@ -87,7 +88,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 14px;
 }
 
@@ -101,9 +102,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 4.5rem;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-radius: 10px;
   width: 9rem;
   height: 9rem;
@@ -111,7 +112,7 @@
 }
 
 .list {
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 .list li {
