@@ -50,6 +50,9 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.center}>
           <Navbar home='#C792EA' />
+          <div className={styles.typeit}>
+            <BigTypeIt text="Hi, I'm Jeremy Carmona and I like to code!" />
+          </div>
           <Subtitle text='My roadmap as a Front-end Developer' />
         </div>
         <div className={styles.onetab}>
