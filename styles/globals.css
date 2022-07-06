@@ -1,11 +1,11 @@
 html,
 body {
   display: inline;
-  background-color: #0F111A;
+  background-color: #0f111a;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, Poppins, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, Poppins, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,18 +15,12 @@ a {
 
 * {
   box-sizing: border-box;
-  /* background-color: #0F111A; */
 }
 
 p {
   font-size: 18px;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
-/* 
-ul {
-  color: #EEEEEE;
-  font-size: 24px;
-} */
 
 a:hover {
   color: #ffcb6b;
