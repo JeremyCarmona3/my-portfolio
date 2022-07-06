@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 import Navbar from '../comps/global/navbar';
-import Title from '../comps/text/title';
+import BigTypeIt from '../comps/text/title';
 import Subtitle from '../comps/text/subtitle';
 import Footer from '../comps/global/footer';
 
@@ -51,7 +51,7 @@ export default function Home() {
         <div className={styles.center}>
           <Navbar home='#C792EA' />
           <div className={styles.typeit}>
-            <Title text="Hi, I'm Jeremy Carmona and I like to code!" />
+            <BigTypeIt text="Hi, I'm Jeremy Carmona and I like to code!" />
           </div>
           <Subtitle text='My roadmap as a Front-end Developer' />
         </div>

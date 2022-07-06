@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 import Navbar from '../comps/global/navbar';
-import Title from '../comps/text/title';
+import BigTypeIt from '../comps/text/title';
 import Subtitle from '../comps/text/subtitle';
 import Footer from '../comps/global/footer';
 
@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
       <div className={styles.container}>
         <div className={styles.center}>
           <Navbar />
-          <Title text='Privacy Policy' />
+          <BigTypeIt text='Privacy Policy' />
           <div className={styles.padding}>
             <p>
               This policy applies to Jeremy Carmona{"'"}s Web site only. It is
