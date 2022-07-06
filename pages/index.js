@@ -28,6 +28,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Home</title>
+        <meta name='title' content='Jeremy M Carmona' />
         <meta
           name='keywords'
           content='Jeremy Carmona Front-end Developer portfolio, BCIT Digital Design and Development (D3) 2022'
