@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 import Navbar from '../comps/global/navbar';
-import Title from '../comps/text/title';
+import BigTypeIt from '../comps/text/title';
 import Subtitle from '../comps/text/subtitle';
 import Footer from '../comps/global/footer';
 
@@ -33,7 +33,7 @@ export default function Projects() {
       <div className={styles.container}>
         <div className={styles.center}>
           <Navbar projects='#C792EA' />
-          <Title text='My projects' />
+          <BigTypeIt text='My projects' />
           <Subtitle text='Some projects I have worked on' />
         </div>
         <div className={styles.onetab}>

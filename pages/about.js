@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 import Navbar from '../comps/global/navbar';
-import Title from '../comps/text/title';
+import BigTypeIt from '../comps/text/title';
 import Subtitle from '../comps/text/subtitle';
 import Footer from '../comps/global/footer';
 import {
@@ -41,7 +41,7 @@ export default function About() {
       <div className={styles.container}>
         <div className={styles.center}>
           <Navbar about='#C792EA' />
-          <Title text='About Me' />
+          <BigTypeIt text='About Me' />
           <Subtitle text='Some things about me' />
         </div>
         <div className={styles.onetab}>
