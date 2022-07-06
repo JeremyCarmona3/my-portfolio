@@ -1,6 +1,5 @@
 .container {
   min-height: 100vh;
-  /* padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
   background-color: #0f111a;
@@ -19,7 +18,7 @@
 }
 
 .onetab {
-  padding-left: 2rem;
+  padding: 0 2rem;
 }
 
 .twotab {
@@ -60,7 +59,6 @@
 .flexone {
   display: flex;
   flex: 1;
-  grid-template-columns: 1fr 1fr;
 }
 
 .termprojects {
