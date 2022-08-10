@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
         <div className={styles.center}>
           <Navbar />
           <BigTypeIt text='Privacy Policy' />
-          <div className={styles.padding}>
+          <div>
             <p>
               This policy applies to Jeremy Carmona{"'"}s Web site only. It is
               designed to inform you of how and why Jeremy Carmona gathers

@@ -130,80 +130,9 @@ export default function Projects() {
               <p>Developers: Iori Takeshita and Jeremy Carmona</p>
             </div>
           </div>
-
-          <Subtitle text='Chatea' />
-          <div className={styles.row}>
-            <div className={styles.colProjects}>
-              <Image
-                src='/Chatea-Assets/Chatea-1.png'
-                alt='Chatea landing page'
-                width={2556}
-                height={1606}
-              />
-            </div>
-            <div className={styles.colProjects}>
-              <p>
-                Chatea is a business website targetted towards those interested
-                in tea.
-              </p>
-
-              <p>
-                <a>Live Site: Chatea</a>
-              </p>
-
-              <p>Designers: Josh Reyes</p>
-
-              <p>Developers: Jeremy Carmona</p>
-            </div>
-          </div>
-
-          <Subtitle text='Giving Hand' />
-          <div className={styles.row}>
-            <div className={styles.colProjects}>
-              <div className={styles.rowProjects}>
-                <div>
-                  <Image
-                    src='/GivingHand-Assets/GivingHand-1.png'
-                    alt='Giving Hand landing page'
-                    width={249}
-                    height={442}
-                  />
-                </div>
-                <div>
-                  <Image
-                    src='/GivingHand-Assets/GivingHand-2.png'
-                    alt='Giving Hand landing page'
-                    width={249}
-                    height={442}
-                  />
-                </div>
-              </div>
-            </div>
-            <div className={styles.colProjects}>
-              <p>
-                Giving Hand is an app to help end homelessness for the people of
-                Vancouver by providing a safe, temporary refuge and critical
-                services to support them in healing, rebuilding their lives and
-                integrating them back into a community.
-              </p>
-
-              <p>
-                <a href='https://giving-hand-app.vercel.app/'>
-                  Live Site: GivingHand
-                </a>
-              </p>
-
-              <p>Designers: Aryan Heravi, Josh Reyes, and Matthew Zhao</p>
-
-              <p>
-                Developers: Aryan Heravi, Jeremy Carmona, Josh Reyes, and
-                Matthew Zhao
-              </p>
-            </div>
-          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

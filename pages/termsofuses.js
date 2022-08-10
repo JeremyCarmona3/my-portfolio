@@ -34,7 +34,7 @@ export default function TermsOfUses() {
         <div className={styles.center}>
           <Navbar />
           <BigTypeIt text='Terms of Uses' />
-          <div className={styles.padding}>
+          <div>
             <p>
               Jeremy Carmona welcomes you to his Web site. Using this Web site
               indicates your consent and agreement to be bound by this User

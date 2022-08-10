@@ -3,17 +3,23 @@ import styled from 'styled-components';
 
 import { useRouter } from 'next/router';
 
-const Cont = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  min-height: 100px;
-  padding: 0rem 2rem;
+const MainCont = styled.div`
+  padding: 2rem 0;
 `;
 
-const Line = styled.hr`
-  margin: 1rem 2rem;
+const Cont = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Line = styled.hr``;
+
+const FooterTextCont = styled.div`
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
 `;
 
 const FooterText = styled.p`
@@ -26,14 +32,6 @@ const FooterText = styled.p`
   }
 `;
 
-const Section = styled.div`
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  // border: 1px solid #fff;
-`;
-
 const BottomText = styled.p`
   text-align: center;
   font-size: 14px;
@@ -42,51 +40,23 @@ const BottomText = styled.p`
 export default function Footer({}) {
   const router = useRouter();
   return (
-    <div>
+    <MainCont>
       <Line />
       <Cont>
-        <Section>
-          <FooterText onClick={() => router.push('/')}>Home</FooterText>
-          <FooterText onClick={() => router.push('/about')}>About</FooterText>
-        </Section>
-        <Section>
-          <FooterText onClick={() => router.push('/projects')}>
-            Projects
-          </FooterText>
-          <FooterText
-            onClick={() => router.push('https://github.com/JeremyCarmona3/')}
-          >
-            Github
-          </FooterText>
-        </Section>
-        <Section>
-          <FooterText
-            onClick={() =>
-              router.push(
-                'https://www.linkedin.com/in/jeremy-carmona-0685731bb/'
-              )
-            }
-          >
-            LinkedIn
-          </FooterText>
-          <FooterText
-            onClick={() => router.push('mailto:jeremycarmona115@gmail.com')}
-          >
-            Email
-          </FooterText>
-        </Section>
-        <Section>
+        <FooterTextCont>
           <FooterText onClick={() => router.push('/termsofuses')}>
             Terms of uses
           </FooterText>
+        </FooterTextCont>
+        <FooterTextCont>
           <FooterText onClick={() => router.push('/privacypolicy')}>
             Privacy Policy
           </FooterText>
-        </Section>
+        </FooterTextCont>
       </Cont>
       <BottomText>
         &copy; Copyright 2022 Jeremy Carmona. All right{"'"}s reserved.
       </BottomText>
-    </div>
+    </MainCont>
   );
 }
