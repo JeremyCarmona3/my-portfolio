@@ -43,22 +43,20 @@ export default function Home() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/JC.svg' />
         <link rel='stylesheets' href='/styles/globals.css' />
       </Head>
 
       <div className={styles.container}>
-        <div className={styles.center}>
-          <Navbar home='#C792EA' />
-          <div className={styles.typeit}>
-            <BigTypeIt text='Hi, my name is Jeremy Carmona and I am a front-end developer.' />
-          </div>
+        <Navbar home='#C792EA' />
+        <div className={styles.typeit}>
+          <BigTypeIt text='Hi, my name is Jeremy Carmona and I am a front-end developer.' />
         </div>
         <div className={styles.onetab}>
           <Subtitle text='Welcome to my portfolio.' />
 
           <div className={styles.row}>
-            <div className={styles.col}>
+            <div className={styles.colAboutMe}>
               <p>
                 Hi there, my name is Jeremy Carmona. I started my interest in
                 coding when I took a graphic design course in highschool. During
@@ -87,10 +85,10 @@ export default function Home() {
             <div className={styles.col}>
               <div className={styles.profilepic}>
                 <Image
-                  src='/ProfilePic.JPG'
+                  src='/IMG_8203.jpeg'
                   alt='image'
-                  width={336}
-                  height={421}
+                  width={3024}
+                  height={4032}
                 />
               </div>
             </div>
@@ -193,6 +191,7 @@ export default function Home() {
               </div>
             </div>
           </div> */}
+          <Subtitle text="Some projects I've worked on" />
 
           <Subtitle text='OnMe' />
           <div className={styles.row}>
@@ -216,7 +215,7 @@ export default function Home() {
             </div>
             <div className={styles.flexone}>
               <div>
-                <Subtitle text='Made with' />
+                <p>Made with</p>
                 <div className={styles.homeskills}>
                   <span className={styles.iconcont}>
                     <span className={styles.icon}>
@@ -273,7 +272,7 @@ export default function Home() {
             </div>
             <div className={styles.flexone}>
               <div>
-                <Subtitle text='Made with' />
+                <p>Made with</p>
                 <div className={styles.homeskills}>
                   <span className={styles.iconcont}>
                     <span className={styles.icon}>

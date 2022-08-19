@@ -26,7 +26,7 @@ export default function Projects() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='JC.svg' />
         <link rel='stylesheets' href='/styles/globals.css' />
       </Head>
 
