@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='JC.svg' />
         <link rel='stylesheets' href='/styles/globals.css' />
       </Head>
 
@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
         <div className={styles.center}>
           <Navbar />
           <BigTypeIt text='Privacy Policy' />
-          <div className={styles.padding}>
+          <div>
             <p>
               This policy applies to Jeremy Carmona{"'"}s Web site only. It is
               designed to inform you of how and why Jeremy Carmona gathers

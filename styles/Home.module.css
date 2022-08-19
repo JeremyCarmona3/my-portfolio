@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: #0f111a;
+  padding: 0 4rem;
 }
 
 .center {
@@ -13,16 +14,7 @@
 
 .typeit {
   display: flex;
-  width: 80%;
-  text-align: center;
-}
-
-.onetab {
-  padding: 0 2rem;
-}
-
-.twotab {
-  padding-left: 4rem;
+  align-items: flex-start;
 }
 
 .row {
@@ -46,7 +38,12 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 0 50px;
+}
+
+.colAboutMe {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
 }
 
 .colProjects {
@@ -64,22 +61,6 @@
 .termprojects {
   padding: 10px;
   height: fit-content;
-}
-
-.profilepic {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.avatar {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  border: 1px solid #eeeeee;
-  border-radius: 20px;
-  padding: 50px;
 }
 
 .homeskills {
@@ -101,12 +82,12 @@
   align-items: center;
   justify-content: center;
   color: #eeeeee;
-  font-size: 4.5rem;
+  font-size: 3rem;
   border: 1px solid #eeeeee;
   border-radius: 10px;
   width: 9rem;
   height: 9rem;
-  margin: 0.5rem;
+  margin: 0.2rem;
 }
 
 .list {
@@ -119,6 +100,10 @@
 
 .padding {
   padding: 0 2rem;
+}
+
+.profilepic {
+  padding: 0 20px;
 }
 
 @media (max-width: 768px) {

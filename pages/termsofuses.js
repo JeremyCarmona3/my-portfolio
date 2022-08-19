@@ -26,7 +26,7 @@ export default function TermsOfUses() {
           name='google-site-verification'
           content='6Ydm5F2LXehzE-WSRujTL_t_TecSLbMEqmwRAsf3im0'
         />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='JC.svg' />
         <link rel='stylesheets' href='/styles/globals.css' />
       </Head>
 
@@ -34,7 +34,7 @@ export default function TermsOfUses() {
         <div className={styles.center}>
           <Navbar />
           <BigTypeIt text='Terms of Uses' />
-          <div className={styles.padding}>
+          <div>
             <p>
               Jeremy Carmona welcomes you to his Web site. Using this Web site
               indicates your consent and agreement to be bound by this User
