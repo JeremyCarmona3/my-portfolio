@@ -31,11 +31,9 @@ export default function Projects() {
       </Head>
 
       <div className={styles.container}>
-        <div className={styles.center}>
-          <Navbar projects='#C792EA' />
-          <BigTypeIt text='My projects' />
-          <Subtitle text='Some projects I have worked on' />
-        </div>
+        <Navbar projects='#C792EA' />
+        <BigTypeIt text='My projects' />
+        <Subtitle text='Some projects I have worked on' />
         <div className={styles.onetab}>
           <Subtitle text='OnMe' />
           <div className={styles.row}>

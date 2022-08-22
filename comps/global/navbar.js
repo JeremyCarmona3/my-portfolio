@@ -2,6 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
 
+import { HiMenu } from 'react-icons/hi';
+import Popup from 'reactjs-popup';
+import Menu from './menu';
+
 const NavbarCont = styled.div`
   display: flex;
   justify-content: space-between;
@@ -16,6 +20,14 @@ const Cont = styled.div`
   display: flex;
 `;
 
+const TextCont = styled.div`
+  display: flex;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+`;
+
 const NavbarText = styled.a`
   font-size: 24px;
   padding-right: 40px;
@@ -25,6 +37,13 @@ const NavbarText = styled.a`
   }
   &:active {
     color: #c3e88d;
+  }
+`;
+
+const MenuIconCont = styled.div`
+  display: none;
+  @media screen and (max-width: 900px) {
+    display: flex;
   }
 `;
 
@@ -39,7 +58,7 @@ export default function Navbar({
       <Cont>
         <Image src='/JC_Light.svg' alt='JC Logo' width={60} height={60} />
       </Cont>
-      <Cont>
+      <TextCont>
         <NavbarText linkcolor={home} href='/'>
           Home()
         </NavbarText>
@@ -56,7 +75,25 @@ export default function Navbar({
         >
           Github()
         </NavbarText>
-      </Cont>
+      </TextCont>
+      <MenuIconCont>
+        <Popup
+          modal
+          overlayStyle={{ background: '#0f111a' }}
+          closeOnDocumentClick={false}
+          trigger={(open) => <HiMenu open={open} color='#EEEEEE' size={35} />}
+        >
+          {(close) => (
+            <Menu
+              close={close}
+              home={home}
+              projects={projects}
+              resume={resume}
+              github={github}
+            />
+          )}
+        </Popup>
+      </MenuIconCont>
     </NavbarCont>
   );
 }
