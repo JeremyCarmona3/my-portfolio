@@ -15,7 +15,7 @@ const Cont = styled.div`
 `;
 
 const NavbarText = styled.a`
-  font-size: 24px;
+  font-size: calc(16px + 0.390625vw);
   color: ${(props) => props.linkcolor};
   &:hover {
     color: #ffcb6b; // <Thing> when hovered

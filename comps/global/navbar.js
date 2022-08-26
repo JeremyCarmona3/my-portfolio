@@ -29,7 +29,7 @@ const TextCont = styled.div`
 `;
 
 const NavbarText = styled.a`
-  font-size: 24px;
+  font-size: calc(16px + 0.390625vw);
   padding-right: 40px;
   color: ${(props) => props.linkcolor};
   &:hover {
