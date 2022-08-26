@@ -34,7 +34,7 @@ const FooterText = styled.p`
 
 const BottomText = styled.p`
   text-align: center;
-  font-size: 14px;
+  font-size: calc(6px + 0.390625vw); ;
 `;
 
 export default function Footer({}) {

@@ -5,7 +5,9 @@ import TypeIt from 'typeit-react';
 export default function BigTypeIt({ text = 'Title text' }) {
   const TypeAnim = ({ children }) => {
     return (
-      <span style={{ fontSize: '90px', color: '#eeeeee' }}>{children}</span>
+      <span style={{ fontSize: 'calc(70px + 0.390625vw)', color: '#eeeeee' }}>
+        {children}
+      </span>
     );
   };
 
