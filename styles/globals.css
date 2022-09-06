@@ -18,7 +18,9 @@ a {
   box-sizing: border-box;
 }
 
-p {
+p,
+li,
+ul {
   font-size: calc(10px + 0.390625vw);
   /* font-size: 18px; */
   color: #eeeeee;
