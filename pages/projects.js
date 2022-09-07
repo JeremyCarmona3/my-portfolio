@@ -45,16 +45,8 @@ export default function Projects() {
                 drink, Selecting a recipient, Adding a message, Paying for the
                 order, and Send another drink ;).
               </p>
-              <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
+              <div className={styles.iframeCont}>
                 <iframe
-                  width='560'
-                  height='315'
                   src='https://www.youtube.com/embed/1NiF7avZNEI'
                   title='YouTube video player'
                   frameBorder='0'
@@ -79,6 +71,11 @@ export default function Projects() {
               </p>
 
               <p>
+                GitHub Link:{' '}
+                <a href='https://github.com/dnguyen130/onme'>OnMe</a>
+              </p>
+
+              <p>
                 Designers: Alicia Yien, Arielle Castro, Charlene Tran, and Min
                 Chun
               </p>
@@ -93,13 +90,13 @@ export default function Projects() {
               <div>
                 <Image
                   src='/MojiMeals-Assets/MojiMeals-1.png'
-                  alt='Moji Meals Logo'
+                  alt='Moji Meals Sign In/Sign Up Page'
                   width={2880}
                   height={1637}
                 />
                 <Image
                   src='/MojiMeals-Assets/MojiMeals-2.png'
-                  alt='Moji Meals Logo'
+                  alt='Moji Meals Home Page'
                   width={2880}
                   height={1637}
                 />
@@ -108,23 +105,38 @@ export default function Projects() {
             <div className={styles.colProjects}>
               <p>
                 MojiMeals is an application that will display a list of emojis
-                from our chosen dataset. When a user clicks an emoji, it will
-                lead to the next page and show the nutrition data of the emoji
-                ingredient or food. It features other pages such as Find Recipe,
-                Settings, and Calculator.
+                from a chosen dataset from Kaggle. When a user clicks an emoji,
+                it will lead to the next page and show the nutrition data of the
+                emoji ingredient or food. It features other pages such as Find
+                Recipe, Settings, and Nutrition Calculator.
               </p>
-
               <p>
-                <a href='https://moji-meals.vercel.app/'>
-                  Live Site: MojiMeals
+                <a href='https://www.kaggle.com/datasets/ofrancisco/emoji-diet-nutritional-data-sr28'>
+                  Kaggle Dataset
                 </a>
               </p>
-
+              <p>
+                GitHub Links:{' '}
+                <a href='https://github.com/JeremyCarmona3/moji-meals'>
+                  Front-end
+                </a>
+                ,{' '}
+                <a href='https://github.com/JeremyCarmona3/moji-meals-backend'>
+                  Back-end
+                </a>
+                ,{' '}
+                <a href='https://github.com/JeremyCarmona3/moji-meals-sockets'>
+                  Sockets
+                </a>
+              </p>
+              <p>
+                Live Site:{' '}
+                <a href='https://moji-meals.vercel.app/'>MojiMeals</a>
+              </p>
               <p>
                 Designers: Alicia Plesich, Maharlika Clomata, and William
                 McDonald
               </p>
-
               <p>Developers: Iori Takeshita and Jeremy Carmona</p>
             </div>
           </div>
