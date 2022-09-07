@@ -81,20 +81,17 @@
   height: fit-content;
 }
 
-.homeSkills {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: #eeeeee;
-  font-size: 14px;
+.mainIconCont {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: calc(6px + 0.390625vw);
 }
 
 .iconCont {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 0.390625vw);
-  /* font-size: 18px; */
   color: #eeeeee;
 }
 
@@ -102,13 +99,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 12vw;
+  height: 12vw;
+  padding: 1rem;
   color: #eeeeee;
-  font-size: 6rem;
+  font-size: calc(70px + 0.390625vw);
   border: 1px solid #eeeeee;
   border-radius: 10px;
-  width: 9rem;
-  height: 9rem;
-  margin: 0.3rem 0.6rem;
 }
 
 .list {
@@ -131,5 +128,8 @@
   .row {
     display: flex;
     flex-direction: column;
+  }
+  .mainIconCont {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
