@@ -8,9 +8,12 @@ import Subtitle from '../comps/text/subtitle';
 import Footer from '../comps/global/footer';
 
 import ProfilePic from '../public/IMG_8203.jpeg';
+import OnMePic1 from '../public/OnMe-Assets/OnMe-1.png';
+import OnMePic2 from '../public/OnMe-Assets/OnMe-2.png';
+import MojiMealsPic1 from '../public/MojiMeals-Assets/MojiMeals-1.png';
+import MojiMealsPic2 from '../public/MojiMeals-Assets/MojiMeals-2.png';
 
 import {
-  SiJavascript,
   SiReact,
   SiNextdotjs,
   SiStyledcomponents,
@@ -99,25 +102,19 @@ export default function Home() {
             <div className={styles.flexOne}>
               <div className={styles.termProjects}>
                 <Image
-                  src='/OnMe-Assets/OnMe-1.png'
+                  src={OnMePic1}
+                  objectFit='cover'
                   alt='OnMe landing page'
-                  width={1284}
-                  height={2778}
                 />
               </div>
               <div className={styles.termProjects}>
-                <Image
-                  src='/OnMe-Assets/OnMe-2.png'
-                  alt='OnMe dashboard'
-                  width={1284}
-                  height={2778}
-                />
+                <Image src={OnMePic2} objectFit='cover' alt='OnMe dashboard' />
               </div>
             </div>
             <div className={styles.flexOne}>
-              <div>
+              <div className={styles.termProjects}>
                 <p>Made with</p>
-                <div className={styles.homeSkills}>
+                <div className={styles.mainIconCont}>
                   <span className={styles.iconCont}>
                     <span className={styles.icon}>
                       <SiReact />
@@ -164,23 +161,21 @@ export default function Home() {
             <div className={styles.flexOne}>
               <div className={styles.termProjects}>
                 <Image
-                  src='/MojiMeals-Assets/MojiMeals-2.png'
-                  alt='MojiMeals moji library'
-                  width={2880}
-                  height={1637}
+                  src={MojiMealsPic1}
+                  objectFit='cover'
+                  alt='Moji Meals Sign In/Sign Up Page'
+                />
+                <Image
+                  src={MojiMealsPic2}
+                  objectFit='cover'
+                  alt='Moji Meals Home Page'
                 />
               </div>
             </div>
             <div className={styles.flexOne}>
-              <div>
+              <div className={styles.termProjects}>
                 <p>Made with</p>
-                <div className={styles.homeSkills}>
-                  <span className={styles.iconCont}>
-                    <span className={styles.icon}>
-                      <SiJavascript />
-                    </span>{' '}
-                    JS
-                  </span>
+                <div className={styles.mainIconCont}>
                   <span className={styles.iconCont}>
                     <span className={styles.icon}>
                       <SiReact />
@@ -210,12 +205,6 @@ export default function Home() {
                       <SiMongodb />
                     </span>{' '}
                     MongoDB
-                  </span>
-                  <span className={styles.iconCont}>
-                    <span className={styles.icon}>
-                      <SiReact />
-                    </span>{' '}
-                    React DnD
                   </span>
                   <span className={styles.iconCont}>
                     <span className={styles.icon}>
