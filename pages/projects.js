@@ -45,10 +45,8 @@ export default function Projects() {
                 drink, Selecting a recipient, Adding a message, Paying for the
                 order, and Send another drink ;).
               </p>
-              <div className={styles.IframeCont}>
+              <div className={styles.iframeCont}>
                 <iframe
-                  // width='560'
-                  // height='315'
                   src='https://www.youtube.com/embed/1NiF7avZNEI'
                   title='YouTube video player'
                   frameBorder='0'
